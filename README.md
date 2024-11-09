@@ -17,7 +17,7 @@ To ensure fairness to the full，these **open-source models** are recommended to
 	+ qwen2.5-32B [lmstudio-community/Qwen2.5-32B-Instruct-GGUF](https://model.lmstudio.ai/download/lmstudio-community/Qwen2.5-32B-Instruct-GGUF)  
 	+ phi-3-medium [bartowski/Phi-3-medium-128k-instruct-GGUF](https://model.lmstudio.ai/download/bartowski/Phi-3-medium-128k-instruct-GGUF)  
 	+ llama3.1-70B [mlabonne/Llama-3.1-70B-Instruct-lorablated-GGUF](https://model.lmstudio.ai/download/mlabonne/Llama-3.1-70B-Instruct-lorablated-GGUF) 
-	+ If your computer can't afford these models, you can use other open-source models, but finally we will evaluate the submitted prompts by these three models.
+	+ If your computer can't afford these models, you are allowed using other open-source models. Finally we will evaluate the submitted prompts by these three models.  
 3. Once the model is downloaded, navigate to the "Local Server" tab, select the model, and click "Start Server".  
 Please view more details on [Prompt Engineering for Science Birds Level Generation and Beyond](https://chatgpt4pcg.github.io/tutorial)
 4. You can start the tutorial code from [this github repository](https://github.com/chatgpt4pcg/tutorial-2024-notebook)  
@@ -120,7 +120,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 #### Scoring Policy
 Please click [here](https://chatgpt4pcg.github.io/evaluation#scoring-policy) for Score Policy information.
 ### Evaluation Tools
-1. [ChatGPT API](https://platform.openai.com/docs/models/overview) via the [`openai`](https://pypi.org/project/openai/) Python package using the `gpt-3.5-turbo-0125` model.
+1. We will conduct the final evaluation on these 3 models:
+	- qwen2.5-32B
+	- phi-3-medium
+	- llama3.1-70B  
+ While participants are free to explore other models during their research phase, our final assessment will be a comprehensive evaluation of submitted projects based on these three models.
 
 2. [Science Birds Evaluator](https://github.com/chatgpt4pcg/modified-science-birds) with features to:
    - Automatically assess the stability.
