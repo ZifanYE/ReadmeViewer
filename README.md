@@ -1,4 +1,3 @@
-# ReadmeViewer
 # The LLM4PCG Competition: Character-like Level Generation for Science Birds
 
 ![image](https://github.com/chatgpt4pcg/chatgpt4pcg.github.io/blob/main/public/images/logo.jpg?raw=true)
@@ -27,7 +26,7 @@ Please view more details on [Prompt Engineering for Science Birds Level Generati
 
 ### Rules
 ---
-####General
+#### General
 1. Any form of cheating, as determined by the organizers, will result in automatic disqualification from the competition.  
 2. Any intended attempts to harm the computing system used to conduct the evaluation process will result in automatic disqualification  
 3. The organizers reserve the right to update the rules and details of the competition at any time. Any changes will be communicated through ??.  
@@ -70,7 +69,7 @@ Please view more details on [Prompt Engineering for Science Birds Level Generati
 
 ### What To Submit:
 ---
-####Submission Guideline:
+#### Submission Guideline:
 
 Before submitting, please ensure that your program follows our guidelines by checking the Rules. It is particularly important that the `drop_block()` function used in your program is defined in the same way as our rules. If not, your results may be unexpected.  
 Your submission can be made using the following form: [https://forms.gle/TVknbAXHuyBA8nh38.](https://forms.gle/TVknbAXHuyBA8nh38.) 
@@ -103,24 +102,24 @@ To participate, you must submit your prompt according to our guidelines. We will
 We hope that this edition will be more exciting and contribute to collective learning and discovery in the world of prompt engineering through this game competition!
 
 > __To obtain more information about the competition, please do not hesitate to visit our previous competition website [here](https://chatgpt4pcg.github.io/), where you can find detailed information and updates regarding the event.__  
-####Submission Rules
+#### Submission Rules
 1. If a team submits multiple entries during a stage, midterm or final, we will consider the most recent submission as that team's final submission.  
 2. Submissions received after the deadline will not be considered for the evaluation process.  
 3. By submitting, you accept all rules and agree that all submitted prompts and programs will be made public.  
-####Result Announcement
+#### Result Announcement
 All participating teams will receive email notifications of their results using the email addresses provided in the submission email. The winner will also be announced on our website.
 ### How To Evaluate:
 ---
-####Evaluation
+#### Evaluation
 The submitted prompts will undergo an evaluation process that involves subjecting them to 10 trials for each of the 26 uppercase letters of the English alphabet (A-Z). The levels generated for each character will be evaluated based on their similarity, stability, and diversity, and scored using the criteria outlined in the scoring policy given below. The entire evaluation process will be conducted using automated scripts and programs.  
 Please note that the evaluation process will be conducted twice, at midterm and final stages. The number of trials and characters in the evaluation set may be adjusted based on the number of teams.
-####Evaluation Set
+#### Evaluation Set
 All 26 alphabetical uppercase characters.
 
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-####Scoring Policy
+#### Scoring Policy
 Please click [here](https://chatgpt4pcg.github.io/evaluation#scoring-policy) for Score Policy information.
-###Evaluation Tools
+### Evaluation Tools
 1. [ChatGPT API](https://platform.openai.com/docs/models/overview) via the [`openai`](https://pypi.org/project/openai/) Python package using the `gpt-3.5-turbo-0125` model.
 
 2. [Science Birds Evaluator](https://github.com/chatgpt4pcg/modified-science-birds) with features to:
@@ -130,7 +129,7 @@ Please click [here](https://chatgpt4pcg.github.io/evaluation#scoring-policy) for
 3. [vit-base-uppercase-english-characters](https://huggingface.co/pittawat/vit-base-uppercase-english-characters).
 
 4. Automation scripts available on our [Resources](/resources) page.
-####Evaluation Environment for Response Generation Stage
+#### Evaluation Environment for Response Generation Stage
 Software:  
 	+ OS: Ubuntu 22.04.3 LTS  
 	+ Python: 3.11.xx  
@@ -144,7 +143,7 @@ Hardware:
 	+ RAM: 250 GB
 	+ GPU: NVIDIA L40S 48GB
 
-####Evaluation Process
+#### Evaluation Process
 1. We manually inspect each submitted program for a potential violation of the rules.  
 2. Submitted PE will be evaluated on all three models (average score)
 3. Better PE performs well on all models
@@ -158,7 +157,7 @@ Hardware:
 
 
 
-###Prizes:
+### Prizes:
 ---
 In this year, we have a total of 1000 USD in prizes to be awarded to:
 
@@ -168,7 +167,7 @@ In this year, we have a total of 1000 USD in prizes to be awarded to:
 
 The prize is sponsored by the IEEE CIS Education Competition Subcommittee. The organizers would like to express their gratitude to the IEEE CIS Education Competition Subcommittee for their generous support.  
 If you are the winner and eligible to receive the prize, you agree that your email address associated with the submission will be shared with the IEEE CIS Education Competition Subcommittee.
-###Organizers:
+### Organizers:
 ---
 1. Pittawat Taveekitworachai, Graduate School of Information Science and Engineering, Ritsumeikan University
 2. Febri Abdullah, Graduate School of Information Science and Engineering, Ritsumeikan University
