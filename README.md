@@ -124,8 +124,8 @@ Please click [here](https://chatgpt4pcg.github.io/evaluation#scoring-policy) for
 	- qwen2.5-32B
 	- phi-3-medium
 	- llama3.1-70B
-  
- While participants are free to explore other models during their research phase, our final assessment will be a comprehensive evaluation of submitted projects based on these three models.
+
+ 	While participants are free to explore other models during their research phase, our final assessment will be a comprehensive evaluation of submitted projects based on these three models.
 
 2. [Science Birds Evaluator](https://github.com/chatgpt4pcg/modified-science-birds) with features to:
    - Automatically assess the stability.
