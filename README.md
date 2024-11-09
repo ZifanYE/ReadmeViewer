@@ -131,17 +131,17 @@ Please click [here](https://chatgpt4pcg.github.io/evaluation#scoring-policy) for
 4. Automation scripts available on our [Resources](/resources) page.
 #### Evaluation Environment for Response Generation Stage
 Software:  
-	+ OS: Ubuntu 22.04.3 LTS  
-	+ Python: 3.11.xx  
-	+ Node.js: 20.xx.xx LTS  
-	+ Unity: 2019.4.40f1 
-	+ [Science Birds Evaluator  ](https://github.com/chatgpt4pcg/modified-science-birds)  
-	+ [Our automation scripts](https://chatgpt4pcg.github.io/resources)  
+	- OS: Ubuntu 22.04.3 LTS  
+	- Python: 3.11.xx  
+	- Node.js: 20.xx.xx LTS  
+	- Unity: 2019.4.40f1 
+	- [Science Birds Evaluator  ](https://github.com/chatgpt4pcg/modified-science-birds)  
+	- [Our automation scripts](https://chatgpt4pcg.github.io/resources)  
 	 
-Hardware:
-	+ CPU: Intel(R) Xeon(R) Gold CPU 6430x128
-	+ RAM: 250 GB
-	+ GPU: NVIDIA L40S 48GB
+Hardware:  
+	- CPU: Intel(R) Xeon(R) Gold CPU 6430x128
+	- RAM: 250 GB
+	- GPU: NVIDIA L40S 48GB
 
 #### Evaluation Process
 1. We manually inspect each submitted program for a potential violation of the rules.  
