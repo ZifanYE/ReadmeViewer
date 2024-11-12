@@ -16,7 +16,7 @@ We welcome participants of all levels, whether you only modify a prompt in a pro
 To ensure fairness to the full，these **open-source models** are recommended to be used:
 	+ qwen2.5-32B [BenevolenceMessiah/Qwen2.5-Coder-32B-Instruct-Q8_0-GGUF](https://model.lmstudio.ai/download/BenevolenceMessiah/Qwen2.5-Coder-32B-Instruct-Q8_0-GGUF)  
 	+ phi-3-medium [ssmits/Phi-3-medium-128k-instruct-Q8_0-GGUF](https://model.lmstudio.ai/download/ssmits/Phi-3-medium-128k-instruct-Q8_0-GGUF)  
-	+ llama3.1-70B [hf-100/Llama-3.1-Spellbound-StoryWriter-70b-instruct-0.3-q4_k_m](https://model.lmstudio.ai/download/hf-100/Llama-3.1-Spellbound-StoryWriter-70b-instruct-0.3-q4_k_m)
+	+ llama3.1-70B [MaziyarPanahi/Meta-Llama-3.1-70B-Instruct-GGUF](https://model.lmstudio.ai/download/MaziyarPanahi/Meta-Llama-3.1-70B-Instruct-GGUF)
 	+ If your computer can't afford these models, you are allowed using other open-source models. Finally we will evaluate the submitted prompts by these three models.  
 3. Once the model is downloaded, navigate to the "Local Server" tab, select the model, and click "Start Server".  
 Please view more details on [Prompt Engineering for Science Birds Level Generation and Beyond](https://chatgpt4pcg.github.io/tutorial)
