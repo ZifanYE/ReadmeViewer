@@ -17,7 +17,7 @@ To ensure fairness to the full，these **open-source models** are recommended to
 	+ qwen2.5-32B [bartowski/Qwen2.5-32B-Instruct-GGUF](https://model.lmstudio.ai/download/bartowski/Qwen2.5-32B-Instruct-GGUF)  
 	+ phi-3-medium [ssmits/Phi-3-medium-128k-instruct-Q8_0-GGUF](https://model.lmstudio.ai/download/ssmits/Phi-3-medium-128k-instruct-Q8_0-GGUF)  
 	+ llama3.1-70B [MaziyarPanahi/Meta-Llama-3.1-70B-Instruct-GGUF](https://model.lmstudio.ai/download/MaziyarPanahi/Meta-Llama-3.1-70B-Instruct-GGUF)
-	+ If your computer can't afford these models, you are allowed using other open-source models. Finally we will evaluate the submitted prompts by these three models.  
+	+ If your computer can't afford these models, you are welcome to use other open-source models. Finally we will evaluate the submitted prompts by these three models.  
 3. Once the model is downloaded, navigate to the "Local Server" tab, select the model, and click "Start Server".  
 Please view more details on [Prompt Engineering for Science Birds Level Generation and Beyond](https://chatgpt4pcg.github.io/tutorial)
 4. You can start the tutorial code from [this github repository](https://github.com/chatgpt4pcg/tutorial-2024-notebook)  
