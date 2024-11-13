@@ -16,7 +16,7 @@ We welcome participants of all levels, whether you only modify a prompt in a pro
 To ensure fairness to the full，these **open-source models** are recommended to be used:
 	+ qwen2.5-32B [bartowski/Qwen2.5-32B-Instruct-GGUF](https://model.lmstudio.ai/download/bartowski/Qwen2.5-32B-Instruct-GGUF)  
 	+ phi-3-medium [ssmits/Phi-3-medium-128k-instruct-Q8_0-GGUF](https://model.lmstudio.ai/download/ssmits/Phi-3-medium-128k-instruct-Q8_0-GGUF)  
-	+ llama3.1-70B [MaziyarPanahi/Meta-Llama-3.1-70B-Instruct-GGUF](https://model.lmstudio.ai/download/MaziyarPanahi/Meta-Llama-3.1-70B-Instruct-GGUF)
+	+ llama3.1-70B [bartowski/Meta-Llama-3.1-70B-Instruct-GGUF](https://model.lmstudio.ai/download/bartowski/Meta-Llama-3.1-70B-Instruct-GGUF)
 	+ If your computer can't afford these models, you are welcome to use other open-source models. Finally we will evaluate the submitted prompts by these three models.  
 3. Once the model is downloaded, navigate to the "Local Server" tab, select the model, and click "Start Server".  
 Please view more details on [Prompt Engineering for Science Birds Level Generation and Beyond](https://chatgpt4pcg.github.io/tutorial)
@@ -33,14 +33,14 @@ Please view more details on [Prompt Engineering for Science Birds Level Generati
 
 #### Prompt Rules
 1. The organizers reserve the right to update the rules and details of the competition at any time. Any changes will be communicated through our website.  
-	1. A submitted program must implement the interface through the Python package provided by the competition to interact with your model via API and output final results in a specified format. Participants are not allowed to interact with your model via API through other methods. This is to ensure fairness, as our provided interface will count and monitor the number of tokens used.  
+	1. A submitted program must implement the interface through the Python package provided by the competition to interact with your model via API and output final results in a specified format. Participants are not allowed to interact with your model via API through other methods.
 	2. During each evaluation, we will use the latest version of the required competition's Python package available as of one week before the submission deadline
 	3. Any tools needed for the implementation of prompt engineering techniques are the responsibility of the participants to provide to the organizers. We do not aim to provide any free or paid services required by your program. We do not guarantee the compatibility of additional tools required as a part of your program. Instructions on how to set up these tools must be provided by participants. In case you utilize paid services, such as gated APIs, proprietary software, or specialized databases, it is the participants' responsibility to provide any required information to run the said software and confirm with these providers about the licenses, terms, and agreements for use in this competition. Any parts of the software that could not be made public must be explicitly stated and informed to the organizer to be removed before being made publicly available. We recommend participants check the specifications of the evaluation computer to ensure compatibility beforehand.  
 	4. The program must not modify responses from your model before writing them to files as final output for evaluation. We consider direct intervention to be cheating. Only the direct response from your model may be utilized as a final output.  
 	5. Modification of the message history of your model in a way that is considered cheating, such as altering the message history with manually created content (i.e., hard-coding answers), is prohibited.  
 	6. Modification of the token counter and timer used for the evaluation is prohibited.  
 	7. In the event of an error during a trial, that trial will be treated as producing an empty response.  
-	8. To ensure fairness, each program combined (source code, tools, databases, etc.) must be at most 1GB in total size including any data downloaded as a result of running the submitted program, and each trial will last only 120 seconds. The total maximum number of tokens that can be used per trial is 25,000 tokens. The sampling temperature and random seed are always fixed at 1 and 42, respectively.  
+	8. To ensure fairness, each program combined (source code, tools, databases, etc.) must be at most 1GB in total size including any data downloaded as a result of running the submitted program, and each trial will last only 120 seconds. The sampling temperature and random seed are always fixed at 1 and 42, respectively.  
 	9. Automatic prompt optimization may be utilized, but its use during the evaluation is discouraged as it quickly consumes available token limits. Therefore, we suggest employing these techniques beforehand.  
 2. Programs failing to follow the requirements in 1. will result in automatic disqualification.  
 3. To ensure that code blocks can be extracted successfully from responses generated by the your model API, each output must include three backticks (```).  
@@ -174,11 +174,11 @@ The prize is sponsored by the IEEE CIS Education Competition Subcommittee. The o
 If you are the winner and eligible to receive the prize, you agree that your email address associated with the submission will be shared with the IEEE CIS Education Competition Subcommittee.
 ### Organizers:
 ---
-1. Pittawat Taveekitworachai, Graduate School of Information Science and Engineering, Ritsumeikan University
+1. Yi Xia, Graduate School of Information Science and Engineering, Ritsumeikan University
 2. Febri Abdullah, Graduate School of Information Science and Engineering, Ritsumeikan University
 3. Mury F. Dewantoro, Graduate School of Information Science and Engineering, Ritsumeikan University
-4. Yi Xia, Graduate School of Information Science and Engineering, Ritsumeikan University
-5. Pratch Suntichaikul, Graduate School of Information Science and Engineering, Ritsumeikan University
+4. Pratch Suntichaikul, Graduate School of Information Science and Engineering, Ritsumeikan University
+5. Zifan Ye, Graduate School of Information Science and Engineering, Ritsumeikan University
 6. Ruck Thawonmas, College of Information Science and Engineering, Ritsumeikan University
 7. Julian Togelius, NYU Tandon School of Engineering, New York University
 8. Jochen Renz, School of Computing, The Australian National Universit
