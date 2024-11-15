@@ -72,7 +72,7 @@ Please view more details on [Prompt Engineering for Science Birds Level Generati
 #### Submission Guideline:
 
 Before submitting, please ensure that your program follows our guidelines by checking the Rules. It is particularly important that the `drop_block()` function used in your program is defined in the same way as our rules. If not, your results may be unexpected.  
-Your submission can be made using the following form: [https://forms.gle/TVknbAXHuyBA8nh38.](https://forms.gle/TVknbAXHuyBA8nh38.) 
+Your submission can be made using the following form: (coming soon)
 
     # Team Name
     
@@ -136,17 +136,15 @@ Please click [here](https://chatgpt4pcg.github.io/evaluation#scoring-policy) for
 4. Automation scripts available on our [Resources](/resources) page.
 #### Evaluation Environment for Response Generation Stage
 Software:  
-	- OS: Ubuntu 22.04.3 LTS  
+	- OS: macOS Sonoma Version 14.5  
 	- Python: 3.11.xx  
-	- Node.js: 20.xx.xx LTS  
 	- Unity: 2019.4.40f1 
 	- [Science Birds Evaluator  ](https://github.com/chatgpt4pcg/modified-science-birds)  
 	- [Our automation scripts](https://chatgpt4pcg.github.io/resources)  
 	 
 Hardware:  
-	- CPU: Intel(R) Xeon(R) Gold CPU 6430x128
-	- RAM: 250 GB
-	- GPU: NVIDIA L40S 48GB
+	- Chip: Apple M2 Ultra
+	- RAM: 128 GB
 
 #### Evaluation Process
 1. We manually inspect each submitted program for a potential violation of the rules.  
@@ -158,7 +156,8 @@ Hardware:
 5. Next, [Science Birds Evaluator](https://github.com/chatgpt4pcg/modified-science-birds) will individually load all levels to assess their stability and capture their images. The results of stability will be recorded, and for each level an image of the structure with black-textured blocks on a white background will be produced by the program.  
 6. The [similarity checking script](https://github.com/chatgpt4pcg/similarity-checking-script) will load each image and pass it through an open source-model called [vit-base-uppercase-english-characters](https://huggingface.co/pittawat/vit-base-uppercase-english-characters). It will then record the similarity result.  
 7. The [diversity checking script](https://github.com/chatgpt4pcg/diversity-checking-script) assesses the diversity of the levels by averaging the cosine distance of non-duplicated all-pairs of outputs from softmax for each level across trial of the same target character as described in the [Evaluation](https://chatgpt4pcg.github.io/evaluation).  
-8. Finally, the [scoring and ranking script](https://github.com/chatgpt4pcg/scoring-and-ranking-script) will load all stability, similarity, and diversity results and produce the final rank and score result for all teams according to the scoring policy.
+8. The [scoring and ranking script](https://github.com/chatgpt4pcg/scoring-and-ranking-script) will load all stability, similarity, and diversity results and produce the final rank and score result for all teams according to the scoring policy.
+9. Finally, we will calculate the sum of scores for all three models.Evaluation process for results from each model is same as this year competition.
 
 
 
@@ -175,13 +174,13 @@ If you are the winner and eligible to receive the prize, you agree that your ema
 ### Organizers:
 ---
 1. Yi Xia, Graduate School of Information Science and Engineering, Ritsumeikan University
-2. Febri Abdullah, Graduate School of Information Science and Engineering, Ritsumeikan University
-3. Mury F. Dewantoro, Graduate School of Information Science and Engineering, Ritsumeikan University
-4. Pratch Suntichaikul, Graduate School of Information Science and Engineering, Ritsumeikan University
-5. Zifan Ye, Graduate School of Information Science and Engineering, Ritsumeikan University
+2. Pratch Suntichaikul, Graduate School of Information Science and Engineering, Ritsumeikan University
+3. Zifan Ye, Graduate School of Information Science and Engineering, Ritsumeikan University
+4. Febri Abdullah, Graduate School of Information Science and Engineering, Ritsumeikan University
+5. Mury F. Dewantoro, Graduate School of Information Science and Engineering, Ritsumeikan University
 6. Ruck Thawonmas, College of Information Science and Engineering, Ritsumeikan University
 7. Julian Togelius, NYU Tandon School of Engineering, New York University
-8. Jochen Renz, School of Computing, The Australian National Universit
+8. Jochen Renz, School of Computing, The Australian National University
 
 
 ### Submission deadline:
